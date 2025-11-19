@@ -359,8 +359,7 @@ def add_grade():
     cal = float(input("Calificación (0 a 5): "))
 
     grade = {
-        "documento": doc, "codigo": cod, "porcentaje": porc, "calificacion": cal
-    }
+        "documento": doc, "codigo": cod, "porcentaje": porc, "calificacion": cal}
 
     grades_list.append(grade)
     print("Nota registrada correctamente.")
@@ -604,7 +603,6 @@ def ranking_students():
 
 
 
-#cambio prueba de github 
 
 # ============================================
 #             EJECUCIÓN DEL SISTEMA
